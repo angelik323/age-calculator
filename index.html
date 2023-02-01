@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+    <Link Rel="Stylesheet" Type="Text/Css" Href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-div-container">
+            <div class="main-screen-container">
+                <h3 class="hading_container"> Age Calculator</h3>
+                <div class="user-input_container">
+                    <div class="dob_tile"> Select DOB </div>
+                    <input id="date" type="date" name="Dob">
+                </div>
+                <div class="user_input_container">
+                    <div class="date_tile"> Today Date </div>
+                    <input id="today_date" type="date" name="Dob" disabled>
+                </div>
+                <button class="btn" onclick="AgeCalculate()"> Calculate </button>
+                <div class="age_main_big_container">
+                    <div class="left_side_div_age_list">
+                        <div>Age</div>
+                        <div><b id="month">_</b> Months | <b id="day">_</b> Days </div>
+                    </div>
+                    <div class="right_side_div_age_list">
+                        <div>
+                            Next Birthday
+                        </div>
+                        <img src="https://media.tenor.com/620SpbPsljwAAAAi/cake.gif" alt="">
+                        <div id="N_b">
+                            <b id="Month1">__</b> Months | <b Id="Day1">__</b> Days
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
