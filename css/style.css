@@ -1,120 +1,194 @@
-* {
+*
+{
     Margin: 0;
     Padding: 0;
-    Overflow: Hidden;
+  Overflow: Hidden;
 }
 
-html,body {
+Html,Body
+{
     Width: 100%;
     Height: 100%;
 }
 
-body {
+Body
+{
     Font-Family: Arial;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,10,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.container {
-    padding-top: 1px;
+.Container
+{
+    Padding-Top: 1px;
 }
 
-.main_div_container {
-    width: 370px;
-    height: 500px;
-    margin: auto;
-    margin-top: 30px;
-    padding-top: 1px;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow: 0px 25px 30px Rgba(0, 0, 0, 0.5);
+.Main_div_container
+{
+    Width: 370px;
+    Height: 500px;
+    Margin: Auto;
+    Margin-Top: 30px;
+    Padding-Top: 1px;
+    Border-Radius: 10px;
+    Background-Color: #000;
+    Box-Shadow: 0px 25px 30px Rgba(0, 0, 0, 0.5);
 }
 
-.main_screen_container {
-    width: 350px;
-    height: 480px;
-    margin: Auto;
-    margin-Top: 10px;
-    border-radius: 10px;
-    background-image: Url(Https://Images.Unsplash.Com/Photo-1515462277126-2dd0c162007a?Ixlib=Rb-1.2.1&Ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMHRoZW1lfGVufDB8fDB8fA%3D%3D&W=1000&Q=80);
-    background-Size: Cover;
-    overflow: Hidden;
+.Main_screen_container
+{
+    Width: 350px;
+    Height: 480px;
+    Margin: Auto;
+    Margin-Top: 10px;
+    Border-Radius: 10px;
+    Background-Image: Url(https://p4.wallpaperbetter.com/wallpaper/742/820/884/abstract-black-green-shapes-wallpaper-preview.jpg);
+    Background-Size: Cover;
+    Overflow: Hidden;
 }
 
-.hading_container {
-    background: #fff;
-    text-Align: Center;
-    padding: 5px 0;
+.Hading_container
+{
+    Background: #Fff;
+    Text-Align: Center;
+    Padding: 5px 0;
 }
 
-.User_input_container {
-    width: 95%;
-    padding: 20px 5px;
-    color: #fff;
-    font-Size: 20px;
+.User_input_container
+{
+    Width: 95%;
+    Padding: 20px 5px;
+    Color: #Fff;
+    Font-Size: 20px;
 }
 
-.dob_tile, .date_tile {
-    width: 47%;
-    display: inline-block;
-    vertical-align: top;
+.Dob_tile,.Date_tile
+{
+    Width: 47%;
+    Display: Inline-Block;
+    Vertical-Align: Top;
 }
 
-#Date, #Today_date {
-    width: 48%;
-    height: 20px;
-    padding: 5px;
-    border: none;
-    background-Color: #fff;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.btn { 
-    width: 120px;
-    padding: 10px;
-    margin-Top: 10px;
-    margin-Left: 32%;
-    border: none;
-    cursor: pointer;
-    border-Radius: 5px;
-    color: #Fff;
-    background-Color: #Ff4e00;
-    border: 2px solid #Ff4e00;
-    box-Shadow: 0px 0px 10px Rgba(0, 0, 100, 0.2), Inset 0px 0px 10px Rgba(0, 0, 100, 0.2);
-    transition: all 0.2s;
+#Date,#Today_date
+{
+    Width: 48%;
+    Height: 20px;
+    Padding: 5px;
+    Border: None;
+    Background-Color: #Fff;
+    Display: Inline-Block;
+    Vertical-Align: Top;
 }
 
 
-.btn:hover {
-    box-shadow: 0px 0px 10px Rgba(0, 0, 100, 0.4), Inset 0px 0px 10px Rgba(0, 0, 100, 0.2);
+.Btn
+{
+    Width: 120px;
+    Padding: 10px;
+    Margin-Top: 10px;
+    Margin-Left: 32%;
+    Border: None;
+    Cursor: Pointer;
+    Border-Radius: 5px;
+    Color: #Fff;
+    Background-Color: #Ff4e00;
+    Border: 2px Solid #Ff4e00;
+    Box-Shadow: 0px 0px 10px Rgba(0, 0, 100, 0.2), Inset 0px 0px 10px Rgba(0, 0, 100, 0.2);
+    Transition: All 0.2s;
 }
 
-.btn:active {
-    box-shadow: 0px 0px 10px Rgba(0, 0, 100, 0.2), inset 0px 0px 10px Rgba(0, 0, 100, 0.4);
-    transform: scale(0.99);
+.Btn:hover
+{
+    Box-Shadow: 0px 0px 10px Rgba(0, 0, 100, 0.4), Inset 0px 0px 10px Rgba(0, 0, 100, 0.2);
 }
+
+.Btn:active
+{
+    Box-Shadow: 0px 0px 10px Rgba(0, 0, 100, 0.2), Inset 0px 0px 10px Rgba(0, 0, 100, 0.4);
+    Transform: Scale(0.99);
+}
+
 
 /********************************/
 
-.age_main_big_container {
-    width: 94.5%;
-    height: 160px;
-    margin-top: 30px;
-    border: 1px solid #Ff4e00;
-    padding: 10px 2.5%;
-    font-weight: bold;
+.Age_main_big_container
+{
+    Width: 94.5%;
+    Height: 160px;
+    Margin-Top: 30px;
+    Border: 1px Solid #Ff4e00;
+    Padding: 10px 2.5%;
+    Font-Weight: Bold;
 }
 
-.keft_side_div_age_list, .right_side_div_age_list {
-    width: 49.1%;
-    height: 100%;
-    /* Background: Green;*/
-    color: #Fff;
-    border: 1px Solid #Ff4e00;
-    box-sizing: border-box;
-    display: inline-block;
-    vertical-align: top;
-    background-color: Rgba(0, 0, 0, 0.7);
+.Left_side_div_age_list,.Right_side_div_age_list
+{
+    Width: 49.1%;
+    Height: 100%;/*
+    Background: Green;*/
+    Color: #Fff;
+    Border: 1px Solid #Ff4e00;
+    Box-Sizing: Border-Box;
+    Display: Inline-Block;
+    Vertical-Align: Top;
+    Background-Color: Rgba(0, 0, 0, 0.7);
 }
 
+.Left_side_div_age_list Div:nth-Child(1)
+{
+    Font-Size: 30px;
+    Padding: 10px;
+}
+
+.Left_side_div_age_list Div:nth-Child(2)
+{
+    Margin: 0;
+}
+
+.Left_side_div_age_list Div:nth-Child(3)
+{
+    Margin: 20px 4px;
+    Opacity: 0;
+    Transition: All 0.2s;
+}
+
+.Right_side_div_age_list
+{
+    Text-Align: Center;
+}
+
+.Right_side_div_age_list Div:nth-Child(1)
+{
+    Color: #Ff4e00;
+    Padding: 10px 0;
+}
+
+.Right_side_div_age_list #N_b
+{
+    Margin-Top: 26px;
+    Opacity: 0;
+    Transition: All 0.2s;
+}
+
+.Right_side_div_age_list Img
+{
+    Width: 50px;
+}
+
+#Year
+{
+    Font-Size: 40px;
+    Color: #Ff4e00;
+    Margin: 10px;
+    Margin-Right: 15px;
+}
+
+#Month
+{
+
+}
+
+#Day
+{
+
+}
