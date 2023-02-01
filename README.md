@@ -1,5 +1,5 @@
-# age-calculator
-An Age Calculator In Javascript With Your Date Of Birth And Additional Functionality That Shows You How Much Time You Have Until Your Next Birthday.
+# Calculadora de edad
+Es una calculadora de edad, te informa que edad tienes actual y cuantos meses y dias llevas desde tu cumpleaños, también te informa el próximo cumpleaños y la fecha actual del día.
 
 
 ### Créditos para:
