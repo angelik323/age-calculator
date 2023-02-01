@@ -5,13 +5,13 @@
   Overflow: Hidden;
 }
 
-Html,Body
+html,body
 {
     Width: 100%;
     Height: 100%;
 }
 
-Body
+body
 {
     Font-Family: Arial;
     background: rgb(2,0,36);
@@ -134,18 +134,18 @@ Body
     Background-Color: Rgba(0, 0, 0, 0.7);
 }
 
-.Left_side_div_age_list Div:nth-Child(1)
+.Left_side_div_age_list div:nth-Child(1)
 {
     Font-Size: 30px;
     Padding: 10px;
 }
 
-.Left_side_div_age_list Div:nth-Child(2)
+.Left_side_div_age_list div:nth-Child(2)
 {
     Margin: 0;
 }
 
-.Left_side_div_age_list Div:nth-Child(3)
+.Left_side_div_age_list div:nth-Child(3)
 {
     Margin: 20px 4px;
     Opacity: 0;
@@ -157,7 +157,7 @@ Body
     Text-Align: Center;
 }
 
-.Right_side_div_age_list Div:nth-Child(1)
+.Right_side_div_age_list div:nth-Child(1)
 {
     Color: #Ff4e00;
     Padding: 10px 0;
@@ -170,7 +170,7 @@ Body
     Transition: All 0.2s;
 }
 
-.Right_side_div_age_list Img
+.Right_side_div_age_list img
 {
     Width: 50px;
 }

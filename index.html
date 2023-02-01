@@ -1,43 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-CO">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age Calculator</title>
+    <title>Calculadora de edad</title>
 
-    <Link Rel="Stylesheet" Type="Text/Css" Href="/css/style.css">
+    <Link rel="Stylesheet" type="Text/Css" href="/css/style.css">
 </head>
-<body>
-    <Body>
-        <Div Class="Container">
-            <Div Class="Main_div_container">
-                <Div Class="Main_screen_container">
-                    <H3 Class="Hading_container">Age Calculator</H3>
-                    <Div Class="User_input_container">
-                        <Div Class="Dob_tile">Select DOB</Div>
-                        <Input Id="Date" Type="Date" Name="Dob">
-                    </Div>
-                    <Div Class="User_input_container">
-                        <Div Class="Date_tile">Today Date</Div>
-                        <Input Id="Today_date" Type="Date" Name="Dob" Disabled>
-                    </Div>
-                    <Button Class="Btn" Onclick="AgeCalculate()">Calculate</Button>
-                    <Div Class="Age_main_big_container">
-                        <Div Class="Left_side_div_age_list">
-                            <Div>Age</Div>
-                            <Div><B Id="Year">_</B> Year</Div>
-                            <Div Id="M_d"><B Id="Month">_</B> Months | <B Id="Day">_</B> Days</Div>
-                        </Div>
-                        <Div Class="Right_side_div_age_list">
-                            <Div>Next Brithday</Div>
+    <body>
+        <div class="Container">
+            <div class="Main_div_container">
+                <div class="Main_screen_container">
+                    <h3 class="Hading_container">Calculadora de edad</h3>
+                    <div class="User_input_container">
+                        <div class="Dob_tile">Tu fecha de nacimiento</div>
+                        <input id="Date" Type="Date" Name="Dob">
+                    </div>
+                    <div class="User_input_container">
+                        <div class="Date_tile">Fecha de hoy</div>
+                        <input id="Today_date" type="Date" name="Dob" disabled>
+                    </div>
+                    <button class="Btn" onclick="AgeCalculate()">Calcular</button>
+                    <div class="Age_main_big_container">
+                        <div class="Left_side_div_age_list">
+                            <div>Edad</div>
+                            <div><b id="Year">_</b> Año</div>
+                            <div id="M_d"><B id="Month">_</B> Meses | <B id="Day">_</B> Días</div>
+                        </div>
+                        <div class="Right_side_div_age_list">
+                            <div>Próximo cumpleaños</div>
                                 <img src="https://media.tenor.com/620SpbPsljwAAAAi/cake.gif" alt="">
-                            <Div Id="N_b"><B Id="Month1">__</B> Months | <B Id="Day1">__</B> Days</Div>
-                        </Div>
-                    </Div>
-                </Div>
-            </Div>
-        </Div>
+                            <div id="N_b"><B id="Month1">__</B> Meses | <B id="Day1">__</B> Días</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script type="text/javascript" src="index.js"></script>
-    </Body>
+    </body>
 </html>
